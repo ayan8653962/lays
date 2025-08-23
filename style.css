@@ -1,0 +1,142 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: orange !important;
+}
+.logo{
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+}
+.bignav{
+  margin: 15px 30px ;
+  background-color: rgb(255, 251, 0);
+}
+.iframe {
+  width: 100%;
+  height: auto;
+  max-width: 1100px;
+  height: 500px !important;
+  margin: 20px 80px !important;
+}
+@media (max-width: 600px) {
+   .iframe {
+   max-width: 500px !important;
+   max-height: 200px !important;
+   margin: 0px !important;
+   }
+}
+@media (max-width: 912px) {
+   .iframe {
+   margin: 0px !important;
+   }
+}
+.bignav{
+  font-weight: bold;
+}
+.ES{
+  border: 2px solid black !important;
+}
+li a:hover{
+  color: white !important;
+  background-color: red;
+  border-radius: 20px;
+  transform: scale(1.1);
+  transition: 1s; 
+}
+.bigcarosel{
+  margin: 30px;
+}
+.dur {
+  color: white !important;
+  font-weight: 700;
+  text-align: center;
+}
+.dur:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.dur h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+.dur1 {
+  background-color: #1c0430 !important;
+}
+.dur2 {
+  background-color: rgb(146, 5, 5) !important;
+}
+.dur3{
+  background-color: rgb(3, 3, 82) !important;
+}
+.buu {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 6px 15px;
+  border: 2px solid red !important;
+  border-radius: 15px;
+}
+.durg1 {
+  background-color: yellow !important;
+}
+.durg2 {
+  background-color: yellow !important;
+
+}
+.durg3{
+  background-color: yellow !important;
+}
+.dur h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  color: black !important; 
+  font-weight: 800;
+}
+.babar img{
+   width: 100%;
+   height: auto;
+   max-width: 1300px;
+   padding: 40px;
+   max-height: 500px;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  /* background-color: #1685c9; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ites1{
+  color: white; 
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  margin: 50px; 
+}
+#pays{
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+}
+#payment{
+  width: 150px;
+  height: 50px;
+}
+#lay{
+  width: 150px;
+  height: 50px;
+}
+.footercopy{
+  background-color: black;
+   padding: 20px;
+   color: white;
+}
+
+
+
+
+
