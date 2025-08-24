@@ -25,7 +25,7 @@ body{
    .iframe {
    max-width: 500px !important;
    max-height: 200px !important;
-   margin: 0px !important;
+   /* margin: 0px 10px !important; */
    }
 }
 @media (max-width: 912px) {
@@ -112,7 +112,7 @@ li a:hover{
   justify-content: space-around;
 }
 .ites1{
-  color: white; 
+  color: black; 
   flex-shrink: 1;
   flex-wrap: wrap;
   margin: 50px; 
